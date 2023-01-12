@@ -1,0 +1,2 @@
+git config --global user.name "Truman Benjamin"
+git config --global user.email "trumanbenjamin@byui.edu"
