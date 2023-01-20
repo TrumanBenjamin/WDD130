@@ -1,0 +1,16 @@
+h1:nth-child(1){
+    color:rgb(80, 80, 80);
+    font-size: 500%;
+}
+.redText {
+    color:red
+}
+p{
+    font-size: 200%;
+}
+#bigText {
+    font-size: 300%;
+}
+html {
+    background-color:bisque;
+}
