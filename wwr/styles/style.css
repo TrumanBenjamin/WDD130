@@ -1,0 +1,60 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#hero-box {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-title {
+    text-align: center;
+    color: brown;
+}
+.hero-msg2 {
+    text-align: center;
+    color: darkred;
+    text-decoration: none;
+}
+.button-box {
+    text-align: center;
+}
+.navigation-links {
+    text-align: center;
+    background-color:tan;
+    color: chocolate;
+}
+.home-grid {
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: peru;
+}
+.body {
+    background-color: #E0DCC8;
+}
+.header {
+    background-color: rgba(20,30,13,.7);
+}
+.book {
+    background-color:blanchedalmond;
+    color: brown;
+    text-decoration: none;
+}
+.msg {
+    background-color: antiquewhite;
+    color: firebrick;
+}
+.footer {
+    background-color: burlywood;
+    color:brown;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.icon {
+    width: 80px;
+}
+.logo {
+    width: 80px;
+}
