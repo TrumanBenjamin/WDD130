@@ -1,0 +1,29 @@
+html {
+    background-color: pink;
+    margin-left: 700;
+    margin-right: 500;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+p {
+    text-align: center;
+    color:white;
+}
+h3 {
+    margin-left: 700px;
+
+}
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+    width: 10;
+    
+}
+h1:hover {
+    color: black;
+}
