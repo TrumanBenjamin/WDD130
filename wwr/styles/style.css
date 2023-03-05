@@ -180,6 +180,94 @@ footer.social {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.subpagegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.events{
+    grid-template-columns: 1/3;
+    text-align: center;
+    font-weight: 700;
+}
+.gc3{
+    grid-template-columns: 1/3;
+    grid-template-rows: 2/5;
+    text-align: center;
+}
+.salmon{
+    grid-template-columns: 1/3;
+    grid-template-rows: 4/5;
+    text-align: center;
+}
+.rates{
+    grid-template-columns: 2/3;
+    grid-template-columns: 1/5;
+    text-align: center;
+    font-weight: 700;
+}
+.dates{
+    grid-template-columns: 3/3;
+    grid-template-rows: 1/5;
+    text-align: center;
+    font-weight: 700;
+}
+.gc3dates{
+    grid-template-columns: 2/3;
+    grid-template-rows: 2/5;
+    text-align: center;
+}
+.gc3rates{
+    grid-template-columns: 3/3;
+    grid-template-rows: 2/5;
+    text-align: center;
+}
+.gc6{
+    grid-template-columns: 1/3;
+    grid-template-rows: 3/5;
+    text-align: center;
+}
+.gc6dates{
+    grid-template-columns: 2/3;
+    grid-template-rows: 3/5;
+    text-align: center;
+}
+.gc6rates{
+    grid-template-columns: 3/3;
+    grid-template-rows: 3/5;
+    text-align: center;
+}
+.salmon{
+    grid-template-columns: 1/3;
+    grid-template-rows: 4/5;
+    text-align: center;
+}
+.salmondates{
+    grid-template-columns: 2/3;
+    grid-template-rows: 4/5;
+    text-align: center;
+}
+.salmonrates{
+    grid-template-columns: 3/3;
+    grid-template-rows: 4/5;
+    text-align: center;
+}
+.desolation{
+    grid-template-columns: 1/3;
+    grid-template-rows: 5/5;
+    text-align: center;
+}
+.desolationdates{
+    grid-template-columns: 2/3;
+    grid-template-rows: 5/5;
+    text-align: center;
+}
+.desolationrates{
+    grid-template-columns: 3/3;
+    grid-template-rows: 5/5;
+    text-align: center;
+}
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
