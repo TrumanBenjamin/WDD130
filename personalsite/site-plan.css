@@ -5,8 +5,8 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #FFD639   ;
-  --secondary-color: #4C2E05 ;
+  --primary-color: #f4d504   ;
+  --secondary-color:#87ae73 ;
   --accent1-color: #67597A;
   --accent2-color: #BBB5BD;
 
@@ -15,15 +15,15 @@ Fonts are separated by a | */
   --paragraph-font: font-family "Gill sans", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #4c2e05;  /* headlines on a white background */ 
-  --headline-color-on-color: #4C2E05; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #67597a; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #67597A; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #FFD639  ;
-  --nav-link-color: #e9db96;
-  --nav-background-color: #4c2e05;
-  --nav-hover-link-color: #4c2e05;
-  --nav-hover-background-color: #FFD639;
+  --headline-color-on-white: #f4d504;  /* headlines on a white background */ 
+  --headline-color-on-color: #f4d504; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #f4d504; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #f4d504  ;
+  --nav-link-color: #6a9720;
+  --nav-background-color: #f4d504;
+  --nav-hover-link-color: black;
+  --nav-hover-background-color: rgb(216, 212, 1);
 }
 
 
@@ -35,6 +35,10 @@ body {
   padding: 4em;
   font-size: 18px;
   text-align: center;
+}
+#content {
+  max-width: 100%;
+  margin: 0 auto;
 }
 img {
   display: block;
@@ -57,6 +61,7 @@ header {
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--nav-link-color);
+  border-radius: 15px;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -100,12 +105,15 @@ p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
-
+header {
+  margin-bottom: 50px;
+}
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
+  color: black;
 }
 .navigationlinks {
   width: 98%;
@@ -113,14 +121,17 @@ nav {
   text-decoration: none;
   justify-content: space-around;
   align-items: center;
+  color: black;
+  border-radius: 5px;
 }
+
 nav  {
   list-style-type: none;
   display: flex;
 
 }
 nav a {
-
+  color: black;
   min-width: 120px;
   text-decoration: none;
 
@@ -131,20 +142,76 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+  border-radius: 20px;
 }
 #hero {
-  padding-top: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.hero {
+  border-radius: 15px;
+  border:#6a9720;
+  border-style:outset;
+  border-color :#6a9720;
+  border-radius: 15px;
+  border-width: 10px;
+}
+h1 p {
+  padding-bottom: 30px;
+  background-color: #6a9720;
+  border-radius: 15px;
+  font-size: xx-large;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  border: 10px outset #8eae40;
+}
+main p {
+  padding-bottom: 30px;
+  background-color: #6a9720;
+  border-radius: 15px;
+  font-size: xx-large;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  border: 10px outset #8eae40;
+  
+}
+#pcontent {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+}
+.redbanana1 {
+  align-content: right;
+  padding-top: 15px;
+}
+.burro {
+
 }
 .homegrid {
   display: grid;
+  
   grid-template-columns: 1fr 1fr;
   padding-bottom: 100px;
+  background-color: #fff59e;
+  padding-top: 50px;
+  border: 50px solid #fff59e;
+  border-style: solid;
+  border-color: #c9c17a;
+  border-radius: 15px;
+  border-width: 15px;
+}
+.homegrid a {
+  font-weight: 600;
+  border-radius: 15px;
 }
 .typesbutton {
   grid-template-columns: 2/2;
   text-decoration: none;
   color: #4C2E05;
   font-size: xx-large;
+  border-radius: 15px;
 }
 .monkeysbutton {
   grid-template-columns: 1/2;
@@ -152,34 +219,42 @@ nav a:hover {
   color: #4C2E05;
   font-size: xx-large;
 }
+.redbanana {
+  margin-bottom: 110px;
+  padding-top: 80px;
+}
 footer {
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--nav-link-color);
+  margin-top: 150px;
+  border-radius: 15px;
 }
 .footernav {
+  padding-top: 50px;
   align-items: center;
   color: #4C2E05;
-  background-color: #67597A;
+  background-color: #f4d504;
   justify-content: space-around;
   font-size:x-large;
   padding: 10px;
+  border-radius: 5px;
 }
 .footernav p {
-  color: #e9db96;
+  color: black;
   font-size: small;
 }
-
+.footernav a {
+  color: black;
+}
 .social {
   padding: 10px;
-  background-color: ;
 }
 
 .sitemap {
   display: grid;
   justify-content: center;
-
   grid-template-columns: repeat(6, 15%);
   grid-template-rows: 3em 1.5em 1.5em 3em;
   grid-template-areas: ". . home home . ."
@@ -228,5 +303,11 @@ footer {
     width: 100%;
 }
 .background {
-  background-color:#fff4c4;
+  background-color: #699720ba;
+}
+.navlogo {
+  border-radius: 5px;
+}
+#home, #types, #monkeys, #siteplan2, #contactus2, #monkeys2 {
+  color: black;
 }
