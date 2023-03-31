@@ -3,6 +3,7 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #f4d504   ;
@@ -70,9 +71,8 @@ header > h1, header > h2 {
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
-  padding: 1em;
   font: Georgia;
-  font-size: 30px;
+
 }
 .colors {
   width: 100%;
@@ -144,10 +144,67 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
   border-radius: 20px;
 }
-#hero {
+#homehero {
   padding-top: 50px;
   padding-bottom: 50px;
+  width: 50%;
+  margin: 0 auto;
+  text-emphasis: 10px;
+  border-radius: 15px;
+} 
+#hero {
+	position: relative;
+  display: flex;
+	margin: 0 auto;
+	width: 500px;
+	height: 250px;
+	background: #6a9720;
+  vertical-align: middle;
+  margin: auto;
+  border-radius: 15px;
+  color: black;
+  font-size: 30px;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#hero h1 {
+  margin: auto;
+  margin: 0 auto;
+  
+  
+}
 
+
+#hero:before, #hero:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #6a9720, #6a9720, #f4d504,#f4d504, #6a9720, #6a9720, 
+		#f4d504, #f4d504,#6a9720, #6a9720);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+  border-radius: 15px;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+#hero:after {
+	filter: blur(50px);
 }
 .hero {
   border-radius: 15px;
@@ -166,28 +223,157 @@ h1 p {
   margin-bottom: 100px;
   border: 10px outset #8eae40;
 }
-main p {
+#church {
+  display:block;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  background: #6a9720;
   padding-bottom: 30px;
   background-color: #6a9720;
   border-radius: 15px;
   font-size: xx-large;
   justify-content: space-evenly;
   margin-bottom: 100px;
-  border: 10px outset #8eae40;
-  
+  background: #6a9720;
+  font-family: Montserrat, sans-serif;;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #f4d504;
+  padding: 40px;
+  box-shadow:
+	  inset #f4d504 0 0 0 5px, 
+    inset #ffe645 0 0 0 1px, 
+    inset #ffef88 0 0 0 10px, 
+    inset #fde75d 0 0 0 11px, 
+    inset #b4f747 0 0 0 16px, 
+    inset #abf436 0 0 0 17px, 
+    inset #8cc233 0 0 0 21px, 
+    inset #6a9720 0 0 0 22px;
+  text-shadow: 3px 3px 1px #8b8b8b;
+  text-decoration: none;
+}
+.church {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+main p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #6a9720;
+  padding-bottom: 30px;
+  background-color: #6a9720;
+  border-radius: 15px;
+  font-size: xx-large;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  background: #6a9720;
+  font-family: Montserrat, sans-serif;;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #f4d504;
+  padding: 40px;
+  box-shadow:
+	  inset #f4d504 0 0 0 5px, 
+    inset #ffe645 0 0 0 1px, 
+    inset #ffef88 0 0 0 10px, 
+    inset #fde75d 0 0 0 11px, 
+    inset #b4f747 0 0 0 16px, 
+    inset #abf436 0 0 0 17px, 
+    inset #8cc233 0 0 0 21px, 
+    inset #6a9720 0 0 0 22px;
+  text-shadow: 3px 3px 1px #8b8b8b;
 }
 #pcontent {
   text-align: center;
   align-items: center;
   align-content: center;
   align-self: center;
+  padding-top: 20px;
+}
+.firstp {
+  font-size:x-large ;
+  padding-top: 20px;
+}
+.secondp {
+  font-size: x-large;
+  padding-top: 20px;
+}
+.monkeygrid {
+  display: grid;
+  grid-template-columns: 5;
+  grid-template-rows: 1;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.image1 {
+  grid-column: 1;
+  grid-row: 1;
+  border-radius: 15px;
+}
+.plus {
+  display: flex;
+  grid-column: 2;
+  grid-row: 1;
+  margin: auto;
+  font-size: 100px;
+}
+.image2 {
+  grid-column: 3;
+  grid-row: 1;
+  border-radius: 15px;
+}
+.equals {
+  grid-column: 4;
+  grid-row: 1;
+  margin: auto;
+  font-size: 100px;
+}
+.image3 {
+  grid-column: 5;
+  grid-row: 1;
+  border-radius: 15px;
+}
+.galleryheader h1 {
+  padding-bottom: 50px;
+}
+#gallery {
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 1;
+
+}
+.img1 {
+  display: flex;
+  grid-column: 2;
+  grid-row: 1;
+  margin: auto;
+  border-radius: 15px;
+}
+.img2 {
+  grid-column: 1;
+  grid-row: 1;
+  border-radius: 15px;
+}
+.img3 {
+  grid-column: 3;
+  grid-row: 1;
+  border-radius: 15px;
 }
 .redbanana1 {
   align-content: right;
-  padding-top: 15px;
+  border-radius: 15px;
+  margin-top: 20px;
 }
 .burro {
-
+  margin-bottom: -50px;
+}
+.happymonkey2 {
+  margin-top: -70px;
 }
 .homegrid {
   display: grid;
@@ -310,4 +496,6 @@ footer {
 }
 #home, #types, #monkeys, #siteplan2, #contactus2, #monkeys2 {
   color: black;
+  font-size: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
