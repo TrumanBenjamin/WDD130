@@ -122,7 +122,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   color: black;
-  border-radius: 5px;
+  border-radius: 5px; 
 }
 
 nav  {
@@ -244,14 +244,14 @@ h1 p {
   color: #f4d504;
   padding: 40px;
   box-shadow:
-	  inset #f4d504 0 0 0 5px, 
-    inset #ffe645 0 0 0 1px, 
-    inset #ffef88 0 0 0 10px, 
-    inset #fde75d 0 0 0 11px, 
-    inset #b4f747 0 0 0 16px, 
-    inset #abf436 0 0 0 17px, 
-    inset #8cc233 0 0 0 21px, 
-    inset #6a9720 0 0 0 22px;
+	  inset #6a9720 0 0 0 5px, 
+    inset #6a9720 0 0 0 1px, 
+    inset #f4d504 0 0 0 10px, 
+    inset #f4d504 0 0 0 11px, 
+    inset #f4d504 0 0 0 16px, 
+    inset #6a9720 0 0 0 17px, 
+    inset #6a9720 0 0 0 21px, 
+
   text-shadow: 3px 3px 1px #8b8b8b;
   text-decoration: none;
 }
@@ -278,13 +278,13 @@ main p {
   color: #f4d504;
   padding: 40px;
   box-shadow:
-	  inset #f4d504 0 0 0 5px, 
-    inset #ffe645 0 0 0 1px, 
-    inset #ffef88 0 0 0 10px, 
-    inset #fde75d 0 0 0 11px, 
-    inset #b4f747 0 0 0 16px, 
-    inset #abf436 0 0 0 17px, 
-    inset #8cc233 0 0 0 21px, 
+	  inset #6a9720 0 0 0 5px, 
+    inset #83b92c 0 0 0 1px, 
+    inset #e1cf5b 0 0 0 10px, 
+    inset #eedc67 0 0 0 11px, 
+    inset #eedc67 0 0 0 16px, 
+    inset #6da315 0 0 0 17px, 
+    inset #6da315 0 0 0 21px, 
     inset #6a9720 0 0 0 22px;
   text-shadow: 3px 3px 1px #8b8b8b;
 }
